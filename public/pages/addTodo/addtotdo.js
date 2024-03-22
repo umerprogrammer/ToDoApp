@@ -248,16 +248,3 @@ window.updateRow = function (path, id) {
 
 getAllData();
 
-
-
-// get(dataRef).then((snapshot) =>{
-//     if(snapshot.exists()){
-//         data = Object.values( snapshot.val());
-//         console.log(data,"data");
-//     }
-//     else{
-//         }
-// }).catch((error)=>{
-//     console.error("Error fetching data:", error);
-// })
-// console.log(data,"Data2" );

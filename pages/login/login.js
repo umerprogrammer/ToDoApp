@@ -39,7 +39,7 @@ window.loginUser = function(e){
         const user = userCredential.user;
         console.log('Logged in as:', user.email);
         localStorage.setItem("userDetails",JSON.stringify(userCredential.user));
-        window.location.assign("../addtodo/addtodo.html");
+        window.location.replace("../addtodo/addtodo.html");
         
     })
     .catch((error) => {
