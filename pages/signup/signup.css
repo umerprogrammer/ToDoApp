@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 14px !important;
+}
+
+.main-container{
+    width: 100%;
+    height: 100vh;
+    background-image: url('/images/app-background/app-background03.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.card-main {
+    width: 45%;
+}
+.cardbody{
+   background: transparent;
+}

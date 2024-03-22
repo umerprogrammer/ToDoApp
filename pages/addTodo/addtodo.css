@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 14px !important;
+}
+
+.main-container{
+    width: 100%;
+    height: 100vh;
+    background-image: url('/images/app-background/app-background03.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.cardheader{
+    height: 40px;
+}
+
+.card-main{
+    width: 90%;
+}
+.todo-list {
+    height: calc(100vh - 205px);
+    overflow-y: auto;
+}
+.btn-add{
+    width: 100px;
+}
+
+table{
+    width: 100%;
+}
+table thead{
+    padding: 2px;
+    width: 100% !important;
+    height: 30px;
+    background-color: #548b52;
+}
+
+table thead th{
+    border: 1px solid #fff;
+    padding: 5px;
+}
+
+table tbody{
+    background-color: #fff;
+    color: black;
+    
+}
+table tbody tr{
+    height: 30px;
+    cursor: pointer;
+}
+
+table tbody tr:hover{
+ background-color: #819180;
+}
+
+
+table tbody td{
+    border: 1px solid #548b52;
+    padding: 5px;
+}
